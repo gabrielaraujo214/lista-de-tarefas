@@ -36,16 +36,11 @@ import { CommonModule } from "@angular/common";
   `,
   styles: [
     `
-      body {
-        font-family: "Roboto", "sans-serif";
-      }
-
       .container {
         max-width: 400px;
         margin: 50px auto;
         padding: 20px;
         border-radius: 12px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
       }
 
@@ -55,12 +50,13 @@ import { CommonModule } from "@angular/common";
         margin-right: 10px;
         border-radius: 8px;
         border: 1px solid #ccc;
+        color: black;
       }
 
       button {
         padding: 10px;
-        background-color: blue;
-        color: white;
+        background-color: white;
+        color: black;
         border: none;
         border-radius: 8px;
         cursor: pointer;
@@ -68,7 +64,7 @@ import { CommonModule } from "@angular/common";
       }
 
       button:hover {
-        background-color: darkblue;
+        background-color: gray;
       }
 
       ul {
